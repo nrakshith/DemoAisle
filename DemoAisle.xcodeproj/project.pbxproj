@@ -7,6 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AC3141FB28B6A19300E9364D /* Server.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC3141FA28B6A19300E9364D /* Server.swift */; };
+		AC3141FE28B6A1DE00E9364D /* RxCocoa in Frameworks */ = {isa = PBXBuildFile; productRef = AC3141FD28B6A1DE00E9364D /* RxCocoa */; };
+		AC31420028B6A1DE00E9364D /* RxRelay in Frameworks */ = {isa = PBXBuildFile; productRef = AC3141FF28B6A1DE00E9364D /* RxRelay */; };
+		AC31420228B6A1DE00E9364D /* RxSwift in Frameworks */ = {isa = PBXBuildFile; productRef = AC31420128B6A1DE00E9364D /* RxSwift */; };
+		AC31420428B6A38900E9364D /* EmptyRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC31420328B6A38900E9364D /* EmptyRequest.swift */; };
+		AC31420628B6A39800E9364D /* EmptyResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC31420528B6A39800E9364D /* EmptyResponse.swift */; };
+		AC31420C28B6A45700E9364D /* Rx+Extended.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC31420A28B6A45700E9364D /* Rx+Extended.swift */; };
+		AC31420E28B6A5DB00E9364D /* URLSession+Extended.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC31420D28B6A5DB00E9364D /* URLSession+Extended.swift */; };
+		AC31421028B6A6A100E9364D /* ErrorExtended.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC31420F28B6A6A100E9364D /* ErrorExtended.swift */; };
+		AC31421228B6A7F500E9364D /* Errors.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC31421128B6A7F500E9364D /* Errors.swift */; };
+		AC31421428B6A82A00E9364D /* JSONDecoder+Extended.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC31421328B6A82A00E9364D /* JSONDecoder+Extended.swift */; };
+		AC31421628B6A88100E9364D /* Date+Extended.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC31421528B6A88100E9364D /* Date+Extended.swift */; };
+		AC31421A28B6AA5B00E9364D /* URLRequest+Extended.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC31421928B6AA5B00E9364D /* URLRequest+Extended.swift */; };
+		AC31421C28B6AC4E00E9364D /* AppConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC31421B28B6AC4E00E9364D /* AppConfiguration.swift */; };
 		ACA8DCC028B5501B00BD943B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACA8DCBF28B5501B00BD943B /* AppDelegate.swift */; };
 		ACA8DCC228B5501B00BD943B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACA8DCC128B5501B00BD943B /* SceneDelegate.swift */; };
 		ACA8DCC428B5501B00BD943B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACA8DCC328B5501B00BD943B /* ViewController.swift */; };
@@ -16,6 +30,8 @@
 		ACA8DCD728B5501C00BD943B /* DemoAisleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACA8DCD628B5501C00BD943B /* DemoAisleTests.swift */; };
 		ACA8DCE128B5501C00BD943B /* DemoAisleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACA8DCE028B5501C00BD943B /* DemoAisleUITests.swift */; };
 		ACA8DCE328B5501C00BD943B /* DemoAisleUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACA8DCE228B5501C00BD943B /* DemoAisleUITestsLaunchTests.swift */; };
+		ACA8DCF428B697BD00BD943B /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = ACA8DCF328B697BD00BD943B /* SnapKit */; };
+		ACA8DCF628B697BD00BD943B /* SnapKit-Dynamic in Frameworks */ = {isa = PBXBuildFile; productRef = ACA8DCF528B697BD00BD943B /* SnapKit-Dynamic */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +52,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		AC3141FA28B6A19300E9364D /* Server.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Server.swift; sourceTree = "<group>"; };
+		AC31420328B6A38900E9364D /* EmptyRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyRequest.swift; sourceTree = "<group>"; };
+		AC31420528B6A39800E9364D /* EmptyResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyResponse.swift; sourceTree = "<group>"; };
+		AC31420B28B6A45700E9364D /* Base */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Base; path = "DemoAisle/Base.lproj/Rx+Extended.swift"; sourceTree = SOURCE_ROOT; };
+		AC31420D28B6A5DB00E9364D /* URLSession+Extended.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "URLSession+Extended.swift"; sourceTree = "<group>"; };
+		AC31420F28B6A6A100E9364D /* ErrorExtended.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorExtended.swift; sourceTree = "<group>"; };
+		AC31421128B6A7F500E9364D /* Errors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Errors.swift; sourceTree = "<group>"; };
+		AC31421328B6A82A00E9364D /* JSONDecoder+Extended.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "JSONDecoder+Extended.swift"; sourceTree = "<group>"; };
+		AC31421528B6A88100E9364D /* Date+Extended.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Extended.swift"; sourceTree = "<group>"; };
+		AC31421928B6AA5B00E9364D /* URLRequest+Extended.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "URLRequest+Extended.swift"; sourceTree = "<group>"; };
+		AC31421B28B6AC4E00E9364D /* AppConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppConfiguration.swift; sourceTree = "<group>"; };
 		ACA8DCBC28B5501B00BD943B /* DemoAisle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DemoAisle.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ACA8DCBF28B5501B00BD943B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ACA8DCC128B5501B00BD943B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -56,6 +83,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AC3141FE28B6A1DE00E9364D /* RxCocoa in Frameworks */,
+				ACA8DCF428B697BD00BD943B /* SnapKit in Frameworks */,
+				AC31420228B6A1DE00E9364D /* RxSwift in Frameworks */,
+				AC31420028B6A1DE00E9364D /* RxRelay in Frameworks */,
+				ACA8DCF628B697BD00BD943B /* SnapKit-Dynamic in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,9 +108,34 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AC3141F928B6A15F00E9364D /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				AC3141FA28B6A19300E9364D /* Server.swift */,
+				AC31420328B6A38900E9364D /* EmptyRequest.swift */,
+				AC31420528B6A39800E9364D /* EmptyResponse.swift */,
+				AC31421128B6A7F500E9364D /* Errors.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		AC31420928B6A43B00E9364D /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				AC31420A28B6A45700E9364D /* Rx+Extended.swift */,
+				AC31420D28B6A5DB00E9364D /* URLSession+Extended.swift */,
+				AC31421928B6AA5B00E9364D /* URLRequest+Extended.swift */,
+				AC31420F28B6A6A100E9364D /* ErrorExtended.swift */,
+				AC31421328B6A82A00E9364D /* JSONDecoder+Extended.swift */,
+				AC31421528B6A88100E9364D /* Date+Extended.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
 		ACA8DCB328B5501B00BD943B = {
 			isa = PBXGroup;
 			children = (
+				AC31421B28B6AC4E00E9364D /* AppConfiguration.swift */,
 				ACA8DCBE28B5501B00BD943B /* DemoAisle */,
 				ACA8DCD528B5501C00BD943B /* DemoAisleTests */,
 				ACA8DCDF28B5501C00BD943B /* DemoAisleUITests */,
@@ -102,6 +159,8 @@
 				ACA8DCBF28B5501B00BD943B /* AppDelegate.swift */,
 				ACA8DCC128B5501B00BD943B /* SceneDelegate.swift */,
 				ACA8DCC328B5501B00BD943B /* ViewController.swift */,
+				AC3141F928B6A15F00E9364D /* Networking */,
+				AC31420928B6A43B00E9364D /* Extensions */,
 				ACA8DCC528B5501B00BD943B /* Main.storyboard */,
 				ACA8DCC828B5501C00BD943B /* Assets.xcassets */,
 				ACA8DCCA28B5501C00BD943B /* LaunchScreen.storyboard */,
@@ -143,6 +202,13 @@
 			dependencies = (
 			);
 			name = DemoAisle;
+			packageProductDependencies = (
+				ACA8DCF328B697BD00BD943B /* SnapKit */,
+				ACA8DCF528B697BD00BD943B /* SnapKit-Dynamic */,
+				AC3141FD28B6A1DE00E9364D /* RxCocoa */,
+				AC3141FF28B6A1DE00E9364D /* RxRelay */,
+				AC31420128B6A1DE00E9364D /* RxSwift */,
+			);
 			productName = DemoAisle;
 			productReference = ACA8DCBC28B5501B00BD943B /* DemoAisle.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +281,10 @@
 				Base,
 			);
 			mainGroup = ACA8DCB328B5501B00BD943B;
+			packageReferences = (
+				ACA8DCF228B697BC00BD943B /* XCRemoteSwiftPackageReference "SnapKit" */,
+				AC3141FC28B6A1DE00E9364D /* XCRemoteSwiftPackageReference "RxSwift" */,
+			);
 			productRefGroup = ACA8DCBD28B5501B00BD943B /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -258,9 +328,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AC31420C28B6A45700E9364D /* Rx+Extended.swift in Sources */,
+				AC31420628B6A39800E9364D /* EmptyResponse.swift in Sources */,
 				ACA8DCC428B5501B00BD943B /* ViewController.swift in Sources */,
 				ACA8DCC028B5501B00BD943B /* AppDelegate.swift in Sources */,
+				AC3141FB28B6A19300E9364D /* Server.swift in Sources */,
+				AC31421028B6A6A100E9364D /* ErrorExtended.swift in Sources */,
+				AC31421228B6A7F500E9364D /* Errors.swift in Sources */,
+				AC31421428B6A82A00E9364D /* JSONDecoder+Extended.swift in Sources */,
+				AC31421628B6A88100E9364D /* Date+Extended.swift in Sources */,
 				ACA8DCC228B5501B00BD943B /* SceneDelegate.swift in Sources */,
+				AC31420428B6A38900E9364D /* EmptyRequest.swift in Sources */,
+				AC31420E28B6A5DB00E9364D /* URLSession+Extended.swift in Sources */,
+				AC31421C28B6AC4E00E9364D /* AppConfiguration.swift in Sources */,
+				AC31421A28B6AA5B00E9364D /* URLRequest+Extended.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,6 +378,14 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
+		AC31420A28B6A45700E9364D /* Rx+Extended.swift */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AC31420B28B6A45700E9364D /* Base */,
+			);
+			name = "Rx+Extended.swift";
+			sourceTree = "<group>";
+		};
 		ACA8DCC528B5501B00BD943B /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -598,6 +687,53 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		AC3141FC28B6A1DE00E9364D /* XCRemoteSwiftPackageReference "RxSwift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/ReactiveX/RxSwift";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 6.0.0;
+			};
+		};
+		ACA8DCF228B697BC00BD943B /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		AC3141FD28B6A1DE00E9364D /* RxCocoa */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = AC3141FC28B6A1DE00E9364D /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxCocoa;
+		};
+		AC3141FF28B6A1DE00E9364D /* RxRelay */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = AC3141FC28B6A1DE00E9364D /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxRelay;
+		};
+		AC31420128B6A1DE00E9364D /* RxSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = AC3141FC28B6A1DE00E9364D /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxSwift;
+		};
+		ACA8DCF328B697BD00BD943B /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = ACA8DCF228B697BC00BD943B /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+		ACA8DCF528B697BD00BD943B /* SnapKit-Dynamic */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = ACA8DCF228B697BC00BD943B /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = "SnapKit-Dynamic";
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = ACA8DCB428B5501B00BD943B /* Project object */;
 }
