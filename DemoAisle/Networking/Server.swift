@@ -10,7 +10,7 @@ import RxCocoa
 import RxSwift
 
 protocol ServerType {
-    func login(phoneNumber: String) -> Observable<Void>
+    func login(phoneNumber: PhoneNumber) -> Observable<Void>
     func otp(phoneNumber: String, otp: String) -> Observable<Void>
 }
 
@@ -21,13 +21,13 @@ struct Server: ServerType {
         self.session = session
     }
     
-    func login(phoneNumber: String) -> Observable<Void> {
+    func login(phoneNumber: PhoneNumber) -> Observable<Void> {
         
         let request = URLRequest(
             method: .POST,
             path: "/users/phone_number_login",
             json: [
-                "number" : phoneNumber
+                "number" : phoneNumber.phoneNumber
             ]
         )
         

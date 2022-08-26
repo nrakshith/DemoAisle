@@ -21,17 +21,25 @@
 		AC31421628B6A88100E9364D /* Date+Extended.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC31421528B6A88100E9364D /* Date+Extended.swift */; };
 		AC31421A28B6AA5B00E9364D /* URLRequest+Extended.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC31421928B6AA5B00E9364D /* URLRequest+Extended.swift */; };
 		AC31421C28B6AC4E00E9364D /* AppConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC31421B28B6AC4E00E9364D /* AppConfiguration.swift */; };
+		AC4E448428B9472C00A74F42 /* PhoneNumberViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC4E448328B9472C00A74F42 /* PhoneNumberViewModel.swift */; };
+		AC4E448728B94A1B00A74F42 /* PhoneNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC4E448628B94A1B00A74F42 /* PhoneNumber.swift */; };
+		AC4E448928B94B9900A74F42 /* Load.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC4E448828B94B9900A74F42 /* Load.swift */; };
+		AC4E448B28B94BF300A74F42 /* ActivityIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC4E448A28B94BF300A74F42 /* ActivityIndicator.swift */; };
+		AC4E449028B94F4900A74F42 /* EnterOTPViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC4E448F28B94F4900A74F42 /* EnterOTPViewController.swift */; };
+		AC4E449228B954FB00A74F42 /* AppDelegateDependencies.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC4E449128B954FB00A74F42 /* AppDelegateDependencies.swift */; };
+		AC4E449E28B95A3800A74F42 /* UIWindow+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC4E449B28B95A3700A74F42 /* UIWindow+Extension.swift */; };
+		AC4E449F28B95A3800A74F42 /* LoadIndicatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC4E449C28B95A3800A74F42 /* LoadIndicatorView.swift */; };
+		AC4E44A028B95A3800A74F42 /* LoadIndicatorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC4E449D28B95A3800A74F42 /* LoadIndicatorViewController.swift */; };
+		AC4E44A228B95A6B00A74F42 /* LoadingIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC4E44A128B95A6B00A74F42 /* LoadingIndicator.swift */; };
+		AC4E44A728B95D4000A74F42 /* CancellationAlertController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC4E44A628B95D4000A74F42 /* CancellationAlertController.swift */; };
 		ACA8DCC028B5501B00BD943B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACA8DCBF28B5501B00BD943B /* AppDelegate.swift */; };
 		ACA8DCC228B5501B00BD943B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACA8DCC128B5501B00BD943B /* SceneDelegate.swift */; };
-		ACA8DCC428B5501B00BD943B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACA8DCC328B5501B00BD943B /* ViewController.swift */; };
-		ACA8DCC728B5501B00BD943B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACA8DCC528B5501B00BD943B /* Main.storyboard */; };
+		ACA8DCC428B5501B00BD943B /* PhoneNumberViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACA8DCC328B5501B00BD943B /* PhoneNumberViewController.swift */; };
 		ACA8DCC928B5501C00BD943B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ACA8DCC828B5501C00BD943B /* Assets.xcassets */; };
 		ACA8DCCC28B5501C00BD943B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACA8DCCA28B5501C00BD943B /* LaunchScreen.storyboard */; };
 		ACA8DCD728B5501C00BD943B /* DemoAisleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACA8DCD628B5501C00BD943B /* DemoAisleTests.swift */; };
 		ACA8DCE128B5501C00BD943B /* DemoAisleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACA8DCE028B5501C00BD943B /* DemoAisleUITests.swift */; };
 		ACA8DCE328B5501C00BD943B /* DemoAisleUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACA8DCE228B5501C00BD943B /* DemoAisleUITestsLaunchTests.swift */; };
-		ACA8DCF428B697BD00BD943B /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = ACA8DCF328B697BD00BD943B /* SnapKit */; };
-		ACA8DCF628B697BD00BD943B /* SnapKit-Dynamic in Frameworks */ = {isa = PBXBuildFile; productRef = ACA8DCF528B697BD00BD943B /* SnapKit-Dynamic */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,11 +71,21 @@
 		AC31421528B6A88100E9364D /* Date+Extended.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Extended.swift"; sourceTree = "<group>"; };
 		AC31421928B6AA5B00E9364D /* URLRequest+Extended.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "URLRequest+Extended.swift"; sourceTree = "<group>"; };
 		AC31421B28B6AC4E00E9364D /* AppConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppConfiguration.swift; sourceTree = "<group>"; };
+		AC4E448328B9472C00A74F42 /* PhoneNumberViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhoneNumberViewModel.swift; sourceTree = "<group>"; };
+		AC4E448628B94A1B00A74F42 /* PhoneNumber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhoneNumber.swift; sourceTree = "<group>"; };
+		AC4E448828B94B9900A74F42 /* Load.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Load.swift; sourceTree = "<group>"; };
+		AC4E448A28B94BF300A74F42 /* ActivityIndicator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityIndicator.swift; sourceTree = "<group>"; };
+		AC4E448F28B94F4900A74F42 /* EnterOTPViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnterOTPViewController.swift; sourceTree = "<group>"; };
+		AC4E449128B954FB00A74F42 /* AppDelegateDependencies.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegateDependencies.swift; sourceTree = "<group>"; };
+		AC4E449B28B95A3700A74F42 /* UIWindow+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIWindow+Extension.swift"; sourceTree = "<group>"; };
+		AC4E449C28B95A3800A74F42 /* LoadIndicatorView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoadIndicatorView.swift; sourceTree = "<group>"; };
+		AC4E449D28B95A3800A74F42 /* LoadIndicatorViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoadIndicatorViewController.swift; sourceTree = "<group>"; };
+		AC4E44A128B95A6B00A74F42 /* LoadingIndicator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoadingIndicator.swift; sourceTree = "<group>"; };
+		AC4E44A628B95D4000A74F42 /* CancellationAlertController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CancellationAlertController.swift; sourceTree = "<group>"; };
 		ACA8DCBC28B5501B00BD943B /* DemoAisle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DemoAisle.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ACA8DCBF28B5501B00BD943B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ACA8DCC128B5501B00BD943B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		ACA8DCC328B5501B00BD943B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		ACA8DCC628B5501B00BD943B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ACA8DCC328B5501B00BD943B /* PhoneNumberViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhoneNumberViewController.swift; sourceTree = "<group>"; };
 		ACA8DCC828B5501C00BD943B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ACA8DCCB28B5501C00BD943B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ACA8DCCD28B5501C00BD943B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -84,10 +102,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				AC3141FE28B6A1DE00E9364D /* RxCocoa in Frameworks */,
-				ACA8DCF428B697BD00BD943B /* SnapKit in Frameworks */,
 				AC31420228B6A1DE00E9364D /* RxSwift in Frameworks */,
 				AC31420028B6A1DE00E9364D /* RxRelay in Frameworks */,
-				ACA8DCF628B697BD00BD943B /* SnapKit-Dynamic in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -115,6 +131,7 @@
 				AC31420328B6A38900E9364D /* EmptyRequest.swift */,
 				AC31420528B6A39800E9364D /* EmptyResponse.swift */,
 				AC31421128B6A7F500E9364D /* Errors.swift */,
+				AC4E448828B94B9900A74F42 /* Load.swift */,
 			);
 			path = Networking;
 			sourceTree = "<group>";
@@ -122,6 +139,7 @@
 		AC31420928B6A43B00E9364D /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
+				AC4E449B28B95A3700A74F42 /* UIWindow+Extension.swift */,
 				AC31420A28B6A45700E9364D /* Rx+Extended.swift */,
 				AC31420D28B6A5DB00E9364D /* URLSession+Extended.swift */,
 				AC31421928B6AA5B00E9364D /* URLRequest+Extended.swift */,
@@ -132,10 +150,87 @@
 			path = Extensions;
 			sourceTree = "<group>";
 		};
+		AC4E448128B946E200A74F42 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				AC4E448E28B94F3500A74F42 /* Enter OTP */,
+				AC4E448228B946F300A74F42 /* Phone number login */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		AC4E448228B946F300A74F42 /* Phone number login */ = {
+			isa = PBXGroup;
+			children = (
+				ACA8DCC328B5501B00BD943B /* PhoneNumberViewController.swift */,
+				AC4E448328B9472C00A74F42 /* PhoneNumberViewModel.swift */,
+			);
+			path = "Phone number login";
+			sourceTree = "<group>";
+		};
+		AC4E448528B949FB00A74F42 /* Types */ = {
+			isa = PBXGroup;
+			children = (
+				AC4E448628B94A1B00A74F42 /* PhoneNumber.swift */,
+			);
+			path = Types;
+			sourceTree = "<group>";
+		};
+		AC4E448C28B94BF900A74F42 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				AC4E44A328B95D1F00A74F42 /* Components */,
+				AC4E448D28B94C1100A74F42 /* UI */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		AC4E448D28B94C1100A74F42 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				AC4E448A28B94BF300A74F42 /* ActivityIndicator.swift */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		AC4E448E28B94F3500A74F42 /* Enter OTP */ = {
+			isa = PBXGroup;
+			children = (
+				AC4E448F28B94F4900A74F42 /* EnterOTPViewController.swift */,
+			);
+			path = "Enter OTP";
+			sourceTree = "<group>";
+		};
+		AC4E44A328B95D1F00A74F42 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				AC4E44A528B95D3000A74F42 /* CancelAlert */,
+				AC4E44A428B95D2600A74F42 /* LoadIndicator */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		AC4E44A428B95D2600A74F42 /* LoadIndicator */ = {
+			isa = PBXGroup;
+			children = (
+				AC4E44A128B95A6B00A74F42 /* LoadingIndicator.swift */,
+				AC4E449C28B95A3800A74F42 /* LoadIndicatorView.swift */,
+				AC4E449D28B95A3800A74F42 /* LoadIndicatorViewController.swift */,
+			);
+			path = LoadIndicator;
+			sourceTree = "<group>";
+		};
+		AC4E44A528B95D3000A74F42 /* CancelAlert */ = {
+			isa = PBXGroup;
+			children = (
+				AC4E44A628B95D4000A74F42 /* CancellationAlertController.swift */,
+			);
+			path = CancelAlert;
+			sourceTree = "<group>";
+		};
 		ACA8DCB328B5501B00BD943B = {
 			isa = PBXGroup;
 			children = (
-				AC31421B28B6AC4E00E9364D /* AppConfiguration.swift */,
 				ACA8DCBE28B5501B00BD943B /* DemoAisle */,
 				ACA8DCD528B5501C00BD943B /* DemoAisleTests */,
 				ACA8DCDF28B5501C00BD943B /* DemoAisleUITests */,
@@ -156,12 +251,15 @@
 		ACA8DCBE28B5501B00BD943B /* DemoAisle */ = {
 			isa = PBXGroup;
 			children = (
+				AC31421B28B6AC4E00E9364D /* AppConfiguration.swift */,
 				ACA8DCBF28B5501B00BD943B /* AppDelegate.swift */,
+				AC4E449128B954FB00A74F42 /* AppDelegateDependencies.swift */,
 				ACA8DCC128B5501B00BD943B /* SceneDelegate.swift */,
-				ACA8DCC328B5501B00BD943B /* ViewController.swift */,
+				AC4E448528B949FB00A74F42 /* Types */,
+				AC4E448128B946E200A74F42 /* Screens */,
 				AC3141F928B6A15F00E9364D /* Networking */,
+				AC4E448C28B94BF900A74F42 /* Common */,
 				AC31420928B6A43B00E9364D /* Extensions */,
-				ACA8DCC528B5501B00BD943B /* Main.storyboard */,
 				ACA8DCC828B5501C00BD943B /* Assets.xcassets */,
 				ACA8DCCA28B5501C00BD943B /* LaunchScreen.storyboard */,
 				ACA8DCCD28B5501C00BD943B /* Info.plist */,
@@ -203,8 +301,6 @@
 			);
 			name = DemoAisle;
 			packageProductDependencies = (
-				ACA8DCF328B697BD00BD943B /* SnapKit */,
-				ACA8DCF528B697BD00BD943B /* SnapKit-Dynamic */,
 				AC3141FD28B6A1DE00E9364D /* RxCocoa */,
 				AC3141FF28B6A1DE00E9364D /* RxRelay */,
 				AC31420128B6A1DE00E9364D /* RxSwift */,
@@ -282,7 +378,6 @@
 			);
 			mainGroup = ACA8DCB328B5501B00BD943B;
 			packageReferences = (
-				ACA8DCF228B697BC00BD943B /* XCRemoteSwiftPackageReference "SnapKit" */,
 				AC3141FC28B6A1DE00E9364D /* XCRemoteSwiftPackageReference "RxSwift" */,
 			);
 			productRefGroup = ACA8DCBD28B5501B00BD943B /* Products */;
@@ -303,7 +398,6 @@
 			files = (
 				ACA8DCCC28B5501C00BD943B /* LaunchScreen.storyboard in Resources */,
 				ACA8DCC928B5501C00BD943B /* Assets.xcassets in Resources */,
-				ACA8DCC728B5501B00BD943B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -330,18 +424,29 @@
 			files = (
 				AC31420C28B6A45700E9364D /* Rx+Extended.swift in Sources */,
 				AC31420628B6A39800E9364D /* EmptyResponse.swift in Sources */,
-				ACA8DCC428B5501B00BD943B /* ViewController.swift in Sources */,
+				AC4E449F28B95A3800A74F42 /* LoadIndicatorView.swift in Sources */,
+				AC4E449E28B95A3800A74F42 /* UIWindow+Extension.swift in Sources */,
+				AC4E44A728B95D4000A74F42 /* CancellationAlertController.swift in Sources */,
+				ACA8DCC428B5501B00BD943B /* PhoneNumberViewController.swift in Sources */,
 				ACA8DCC028B5501B00BD943B /* AppDelegate.swift in Sources */,
 				AC3141FB28B6A19300E9364D /* Server.swift in Sources */,
 				AC31421028B6A6A100E9364D /* ErrorExtended.swift in Sources */,
 				AC31421228B6A7F500E9364D /* Errors.swift in Sources */,
+				AC4E448928B94B9900A74F42 /* Load.swift in Sources */,
 				AC31421428B6A82A00E9364D /* JSONDecoder+Extended.swift in Sources */,
 				AC31421628B6A88100E9364D /* Date+Extended.swift in Sources */,
+				AC4E44A228B95A6B00A74F42 /* LoadingIndicator.swift in Sources */,
+				AC4E44A028B95A3800A74F42 /* LoadIndicatorViewController.swift in Sources */,
 				ACA8DCC228B5501B00BD943B /* SceneDelegate.swift in Sources */,
+				AC4E449028B94F4900A74F42 /* EnterOTPViewController.swift in Sources */,
+				AC4E448428B9472C00A74F42 /* PhoneNumberViewModel.swift in Sources */,
 				AC31420428B6A38900E9364D /* EmptyRequest.swift in Sources */,
 				AC31420E28B6A5DB00E9364D /* URLSession+Extended.swift in Sources */,
 				AC31421C28B6AC4E00E9364D /* AppConfiguration.swift in Sources */,
 				AC31421A28B6AA5B00E9364D /* URLRequest+Extended.swift in Sources */,
+				AC4E448B28B94BF300A74F42 /* ActivityIndicator.swift in Sources */,
+				AC4E448728B94A1B00A74F42 /* PhoneNumber.swift in Sources */,
+				AC4E449228B954FB00A74F42 /* AppDelegateDependencies.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -384,14 +489,6 @@
 				AC31420B28B6A45700E9364D /* Base */,
 			);
 			name = "Rx+Extended.swift";
-			sourceTree = "<group>";
-		};
-		ACA8DCC528B5501B00BD943B /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				ACA8DCC628B5501B00BD943B /* Base */,
-			);
-			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 		ACA8DCCA28B5501C00BD943B /* LaunchScreen.storyboard */ = {
@@ -532,7 +629,6 @@
 				INFOPLIST_FILE = DemoAisle/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -559,7 +655,6 @@
 				INFOPLIST_FILE = DemoAisle/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -697,14 +792,6 @@
 				minimumVersion = 6.0.0;
 			};
 		};
-		ACA8DCF228B697BC00BD943B /* XCRemoteSwiftPackageReference "SnapKit" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/SnapKit/SnapKit";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 5.0.0;
-			};
-		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -722,16 +809,6 @@
 			isa = XCSwiftPackageProductDependency;
 			package = AC3141FC28B6A1DE00E9364D /* XCRemoteSwiftPackageReference "RxSwift" */;
 			productName = RxSwift;
-		};
-		ACA8DCF328B697BD00BD943B /* SnapKit */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = ACA8DCF228B697BC00BD943B /* XCRemoteSwiftPackageReference "SnapKit" */;
-			productName = SnapKit;
-		};
-		ACA8DCF528B697BD00BD943B /* SnapKit-Dynamic */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = ACA8DCF228B697BC00BD943B /* XCRemoteSwiftPackageReference "SnapKit" */;
-			productName = "SnapKit-Dynamic";
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
