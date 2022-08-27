@@ -32,6 +32,8 @@
 		AC4E44A028B95A3800A74F42 /* LoadIndicatorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC4E449D28B95A3800A74F42 /* LoadIndicatorViewController.swift */; };
 		AC4E44A228B95A6B00A74F42 /* LoadingIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC4E44A128B95A6B00A74F42 /* LoadingIndicator.swift */; };
 		AC4E44A728B95D4000A74F42 /* CancellationAlertController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC4E44A628B95D4000A74F42 /* CancellationAlertController.swift */; };
+		AC4E44A928BA97DD00A74F42 /* EnterOTPViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC4E44A828BA97DC00A74F42 /* EnterOTPViewModel.swift */; };
+		AC4E44AC28BA995100A74F42 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC4E44AB28BA995100A74F42 /* TabBarController.swift */; };
 		ACA8DCC028B5501B00BD943B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACA8DCBF28B5501B00BD943B /* AppDelegate.swift */; };
 		ACA8DCC228B5501B00BD943B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACA8DCC128B5501B00BD943B /* SceneDelegate.swift */; };
 		ACA8DCC428B5501B00BD943B /* PhoneNumberViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACA8DCC328B5501B00BD943B /* PhoneNumberViewController.swift */; };
@@ -82,6 +84,8 @@
 		AC4E449D28B95A3800A74F42 /* LoadIndicatorViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoadIndicatorViewController.swift; sourceTree = "<group>"; };
 		AC4E44A128B95A6B00A74F42 /* LoadingIndicator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoadingIndicator.swift; sourceTree = "<group>"; };
 		AC4E44A628B95D4000A74F42 /* CancellationAlertController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CancellationAlertController.swift; sourceTree = "<group>"; };
+		AC4E44A828BA97DC00A74F42 /* EnterOTPViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnterOTPViewModel.swift; sourceTree = "<group>"; };
+		AC4E44AB28BA995100A74F42 /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
 		ACA8DCBC28B5501B00BD943B /* DemoAisle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DemoAisle.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ACA8DCBF28B5501B00BD943B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ACA8DCC128B5501B00BD943B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -153,6 +157,7 @@
 		AC4E448128B946E200A74F42 /* Screens */ = {
 			isa = PBXGroup;
 			children = (
+				AC4E44AA28BA992100A74F42 /* TabBar */,
 				AC4E448E28B94F3500A74F42 /* Enter OTP */,
 				AC4E448228B946F300A74F42 /* Phone number login */,
 			);
@@ -197,6 +202,7 @@
 			isa = PBXGroup;
 			children = (
 				AC4E448F28B94F4900A74F42 /* EnterOTPViewController.swift */,
+				AC4E44A828BA97DC00A74F42 /* EnterOTPViewModel.swift */,
 			);
 			path = "Enter OTP";
 			sourceTree = "<group>";
@@ -226,6 +232,14 @@
 				AC4E44A628B95D4000A74F42 /* CancellationAlertController.swift */,
 			);
 			path = CancelAlert;
+			sourceTree = "<group>";
+		};
+		AC4E44AA28BA992100A74F42 /* TabBar */ = {
+			isa = PBXGroup;
+			children = (
+				AC4E44AB28BA995100A74F42 /* TabBarController.swift */,
+			);
+			path = TabBar;
 			sourceTree = "<group>";
 		};
 		ACA8DCB328B5501B00BD943B = {
@@ -425,6 +439,8 @@
 				AC31420C28B6A45700E9364D /* Rx+Extended.swift in Sources */,
 				AC31420628B6A39800E9364D /* EmptyResponse.swift in Sources */,
 				AC4E449F28B95A3800A74F42 /* LoadIndicatorView.swift in Sources */,
+				AC4E44AC28BA995100A74F42 /* TabBarController.swift in Sources */,
+				AC4E44A928BA97DD00A74F42 /* EnterOTPViewModel.swift in Sources */,
 				AC4E449E28B95A3800A74F42 /* UIWindow+Extension.swift in Sources */,
 				AC4E44A728B95D4000A74F42 /* CancellationAlertController.swift in Sources */,
 				ACA8DCC428B5501B00BD943B /* PhoneNumberViewController.swift in Sources */,

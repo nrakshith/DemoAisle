@@ -36,7 +36,7 @@ struct Server: ServerType {
         return observable.mapToVoid()
     }
     
-    func otp(phoneNumber: String, otp: String) -> Observable<Void> {
+    func otp(phoneNumber: String, otp: String) -> Observable<String> {
         struct Response: Decodable {
             let authToken: String
         }
@@ -50,6 +50,6 @@ struct Server: ServerType {
         )
         let observable: Observable<Response> = session.observable(for: request)
         
-        return observable.mapToVoid()
+        return observable.map{ $0.authToken }
     }
 }

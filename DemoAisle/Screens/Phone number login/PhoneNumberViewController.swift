@@ -100,6 +100,13 @@ class PhoneNumberViewController: UIViewController {
             )
         )
         
+        viewModel.showOTPScreen
+            .observe(on: MainScheduler.instance)
+            .bind { [weak self] dependencies in
+                let vc = EnterOTPViewController(dependencies: dependencies)
+                self?.navigationController?.pushViewController(vc, animated: true)
+            }.disposed(by: disposeBag)
+        
         viewModel.isLoading.driveNext {
             let indicator = LoadingIndicator.shared
             $0 ? indicator.show("Loading") : indicator.hide()
