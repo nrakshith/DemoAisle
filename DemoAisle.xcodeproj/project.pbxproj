@@ -37,6 +37,7 @@
 		AC4E44B728BBEA2E00A74F42 /* NoteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC4E44B628BBEA2E00A74F42 /* NoteViewController.swift */; };
 		AC4E44B928BC05DB00A74F42 /* InterestedProfilesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC4E44B828BC05DB00A74F42 /* InterestedProfilesView.swift */; };
 		AC4E44BC28BC1AC000A74F42 /* Copy.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC4E44BB28BC1AC000A74F42 /* Copy.swift */; };
+		AC4E44BE28BC219C00A74F42 /* BlurImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC4E44BD28BC219C00A74F42 /* BlurImageView.swift */; };
 		ACA8DCC028B5501B00BD943B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACA8DCBF28B5501B00BD943B /* AppDelegate.swift */; };
 		ACA8DCC228B5501B00BD943B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACA8DCC128B5501B00BD943B /* SceneDelegate.swift */; };
 		ACA8DCC428B5501B00BD943B /* PhoneNumberViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACA8DCC328B5501B00BD943B /* PhoneNumberViewController.swift */; };
@@ -92,6 +93,7 @@
 		AC4E44B628BBEA2E00A74F42 /* NoteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteViewController.swift; sourceTree = "<group>"; };
 		AC4E44B828BC05DB00A74F42 /* InterestedProfilesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterestedProfilesView.swift; sourceTree = "<group>"; };
 		AC4E44BB28BC1AC000A74F42 /* Copy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Copy.swift; sourceTree = "<group>"; };
+		AC4E44BD28BC219C00A74F42 /* BlurImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlurImageView.swift; sourceTree = "<group>"; };
 		ACA8DCBC28B5501B00BD943B /* DemoAisle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DemoAisle.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ACA8DCBF28B5501B00BD943B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ACA8DCC128B5501B00BD943B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -164,8 +166,8 @@
 		AC4E448128B946E200A74F42 /* Screens */ = {
 			isa = PBXGroup;
 			children = (
-				AC4E44B528BBEA1B00A74F42 /* Note Screen */,
 				AC4E44AA28BA992100A74F42 /* TabBar */,
+				AC4E44B528BBEA1B00A74F42 /* Note Screen */,
 				AC4E448E28B94F3500A74F42 /* Enter OTP */,
 				AC4E448228B946F300A74F42 /* Phone number login */,
 			);
@@ -202,6 +204,7 @@
 			isa = PBXGroup;
 			children = (
 				AC4E448A28B94BF300A74F42 /* ActivityIndicator.swift */,
+				AC4E44BD28BC219C00A74F42 /* BlurImageView.swift */,
 			);
 			path = UI;
 			sourceTree = "<group>";
@@ -486,6 +489,7 @@
 				AC31421028B6A6A100E9364D /* ErrorExtended.swift in Sources */,
 				AC31421228B6A7F500E9364D /* Errors.swift in Sources */,
 				AC4E448928B94B9900A74F42 /* Load.swift in Sources */,
+				AC4E44BE28BC219C00A74F42 /* BlurImageView.swift in Sources */,
 				AC31421428B6A82A00E9364D /* JSONDecoder+Extended.swift in Sources */,
 				AC4E44BC28BC1AC000A74F42 /* Copy.swift in Sources */,
 				AC31421628B6A88100E9364D /* Date+Extended.swift in Sources */,
