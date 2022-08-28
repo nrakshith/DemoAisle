@@ -28,12 +28,15 @@
 		AC4E449028B94F4900A74F42 /* EnterOTPViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC4E448F28B94F4900A74F42 /* EnterOTPViewController.swift */; };
 		AC4E449228B954FB00A74F42 /* AppDelegateDependencies.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC4E449128B954FB00A74F42 /* AppDelegateDependencies.swift */; };
 		AC4E449E28B95A3800A74F42 /* UIWindow+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC4E449B28B95A3700A74F42 /* UIWindow+Extension.swift */; };
-		AC4E449F28B95A3800A74F42 /* LoadIndicatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC4E449C28B95A3800A74F42 /* LoadIndicatorView.swift */; };
-		AC4E44A028B95A3800A74F42 /* LoadIndicatorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC4E449D28B95A3800A74F42 /* LoadIndicatorViewController.swift */; };
-		AC4E44A228B95A6B00A74F42 /* LoadingIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC4E44A128B95A6B00A74F42 /* LoadingIndicator.swift */; };
 		AC4E44A728B95D4000A74F42 /* CancellationAlertController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC4E44A628B95D4000A74F42 /* CancellationAlertController.swift */; };
 		AC4E44A928BA97DD00A74F42 /* EnterOTPViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC4E44A828BA97DC00A74F42 /* EnterOTPViewModel.swift */; };
 		AC4E44AC28BA995100A74F42 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC4E44AB28BA995100A74F42 /* TabBarController.swift */; };
+		AC4E44AF28BB667100A74F42 /* PhoneNumberLoginModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC4E44AE28BB667100A74F42 /* PhoneNumberLoginModel.swift */; };
+		AC4E44B128BB66C000A74F42 /* OTPLoginModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC4E44B028BB66C000A74F42 /* OTPLoginModel.swift */; };
+		AC4E44B328BB947100A74F42 /* LoadIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC4E44B228BB947100A74F42 /* LoadIndicator.swift */; };
+		AC4E44B728BBEA2E00A74F42 /* NoteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC4E44B628BBEA2E00A74F42 /* NoteViewController.swift */; };
+		AC4E44B928BC05DB00A74F42 /* InterestedProfilesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC4E44B828BC05DB00A74F42 /* InterestedProfilesView.swift */; };
+		AC4E44BC28BC1AC000A74F42 /* Copy.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC4E44BB28BC1AC000A74F42 /* Copy.swift */; };
 		ACA8DCC028B5501B00BD943B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACA8DCBF28B5501B00BD943B /* AppDelegate.swift */; };
 		ACA8DCC228B5501B00BD943B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACA8DCC128B5501B00BD943B /* SceneDelegate.swift */; };
 		ACA8DCC428B5501B00BD943B /* PhoneNumberViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACA8DCC328B5501B00BD943B /* PhoneNumberViewController.swift */; };
@@ -80,12 +83,15 @@
 		AC4E448F28B94F4900A74F42 /* EnterOTPViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnterOTPViewController.swift; sourceTree = "<group>"; };
 		AC4E449128B954FB00A74F42 /* AppDelegateDependencies.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegateDependencies.swift; sourceTree = "<group>"; };
 		AC4E449B28B95A3700A74F42 /* UIWindow+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIWindow+Extension.swift"; sourceTree = "<group>"; };
-		AC4E449C28B95A3800A74F42 /* LoadIndicatorView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoadIndicatorView.swift; sourceTree = "<group>"; };
-		AC4E449D28B95A3800A74F42 /* LoadIndicatorViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoadIndicatorViewController.swift; sourceTree = "<group>"; };
-		AC4E44A128B95A6B00A74F42 /* LoadingIndicator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoadingIndicator.swift; sourceTree = "<group>"; };
 		AC4E44A628B95D4000A74F42 /* CancellationAlertController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CancellationAlertController.swift; sourceTree = "<group>"; };
 		AC4E44A828BA97DC00A74F42 /* EnterOTPViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnterOTPViewModel.swift; sourceTree = "<group>"; };
 		AC4E44AB28BA995100A74F42 /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
+		AC4E44AE28BB667100A74F42 /* PhoneNumberLoginModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhoneNumberLoginModel.swift; sourceTree = "<group>"; };
+		AC4E44B028BB66C000A74F42 /* OTPLoginModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OTPLoginModel.swift; sourceTree = "<group>"; };
+		AC4E44B228BB947100A74F42 /* LoadIndicator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadIndicator.swift; sourceTree = "<group>"; };
+		AC4E44B628BBEA2E00A74F42 /* NoteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteViewController.swift; sourceTree = "<group>"; };
+		AC4E44B828BC05DB00A74F42 /* InterestedProfilesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterestedProfilesView.swift; sourceTree = "<group>"; };
+		AC4E44BB28BC1AC000A74F42 /* Copy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Copy.swift; sourceTree = "<group>"; };
 		ACA8DCBC28B5501B00BD943B /* DemoAisle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DemoAisle.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ACA8DCBF28B5501B00BD943B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ACA8DCC128B5501B00BD943B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -131,6 +137,7 @@
 		AC3141F928B6A15F00E9364D /* Networking */ = {
 			isa = PBXGroup;
 			children = (
+				AC4E44AD28BB661F00A74F42 /* Models */,
 				AC3141FA28B6A19300E9364D /* Server.swift */,
 				AC31420328B6A38900E9364D /* EmptyRequest.swift */,
 				AC31420528B6A39800E9364D /* EmptyResponse.swift */,
@@ -157,6 +164,7 @@
 		AC4E448128B946E200A74F42 /* Screens */ = {
 			isa = PBXGroup;
 			children = (
+				AC4E44B528BBEA1B00A74F42 /* Note Screen */,
 				AC4E44AA28BA992100A74F42 /* TabBar */,
 				AC4E448E28B94F3500A74F42 /* Enter OTP */,
 				AC4E448228B946F300A74F42 /* Phone number login */,
@@ -219,9 +227,7 @@
 		AC4E44A428B95D2600A74F42 /* LoadIndicator */ = {
 			isa = PBXGroup;
 			children = (
-				AC4E44A128B95A6B00A74F42 /* LoadingIndicator.swift */,
-				AC4E449C28B95A3800A74F42 /* LoadIndicatorView.swift */,
-				AC4E449D28B95A3800A74F42 /* LoadIndicatorViewController.swift */,
+				AC4E44B228BB947100A74F42 /* LoadIndicator.swift */,
 			);
 			path = LoadIndicator;
 			sourceTree = "<group>";
@@ -240,6 +246,32 @@
 				AC4E44AB28BA995100A74F42 /* TabBarController.swift */,
 			);
 			path = TabBar;
+			sourceTree = "<group>";
+		};
+		AC4E44AD28BB661F00A74F42 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				AC4E44AE28BB667100A74F42 /* PhoneNumberLoginModel.swift */,
+				AC4E44B028BB66C000A74F42 /* OTPLoginModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		AC4E44B528BBEA1B00A74F42 /* Note Screen */ = {
+			isa = PBXGroup;
+			children = (
+				AC4E44B628BBEA2E00A74F42 /* NoteViewController.swift */,
+				AC4E44B828BC05DB00A74F42 /* InterestedProfilesView.swift */,
+			);
+			path = "Note Screen";
+			sourceTree = "<group>";
+		};
+		AC4E44BA28BC1AAD00A74F42 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				AC4E44BB28BC1AC000A74F42 /* Copy.swift */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 		ACA8DCB328B5501B00BD943B = {
@@ -272,6 +304,7 @@
 				AC4E448528B949FB00A74F42 /* Types */,
 				AC4E448128B946E200A74F42 /* Screens */,
 				AC3141F928B6A15F00E9364D /* Networking */,
+				AC4E44BA28BC1AAD00A74F42 /* Resources */,
 				AC4E448C28B94BF900A74F42 /* Common */,
 				AC31420928B6A43B00E9364D /* Extensions */,
 				ACA8DCC828B5501C00BD943B /* Assets.xcassets */,
@@ -436,13 +469,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AC4E44B728BBEA2E00A74F42 /* NoteViewController.swift in Sources */,
+				AC4E44B328BB947100A74F42 /* LoadIndicator.swift in Sources */,
 				AC31420C28B6A45700E9364D /* Rx+Extended.swift in Sources */,
 				AC31420628B6A39800E9364D /* EmptyResponse.swift in Sources */,
-				AC4E449F28B95A3800A74F42 /* LoadIndicatorView.swift in Sources */,
 				AC4E44AC28BA995100A74F42 /* TabBarController.swift in Sources */,
 				AC4E44A928BA97DD00A74F42 /* EnterOTPViewModel.swift in Sources */,
 				AC4E449E28B95A3800A74F42 /* UIWindow+Extension.swift in Sources */,
 				AC4E44A728B95D4000A74F42 /* CancellationAlertController.swift in Sources */,
+				AC4E44B928BC05DB00A74F42 /* InterestedProfilesView.swift in Sources */,
+				AC4E44B128BB66C000A74F42 /* OTPLoginModel.swift in Sources */,
+				AC4E44AF28BB667100A74F42 /* PhoneNumberLoginModel.swift in Sources */,
 				ACA8DCC428B5501B00BD943B /* PhoneNumberViewController.swift in Sources */,
 				ACA8DCC028B5501B00BD943B /* AppDelegate.swift in Sources */,
 				AC3141FB28B6A19300E9364D /* Server.swift in Sources */,
@@ -450,9 +487,8 @@
 				AC31421228B6A7F500E9364D /* Errors.swift in Sources */,
 				AC4E448928B94B9900A74F42 /* Load.swift in Sources */,
 				AC31421428B6A82A00E9364D /* JSONDecoder+Extended.swift in Sources */,
+				AC4E44BC28BC1AC000A74F42 /* Copy.swift in Sources */,
 				AC31421628B6A88100E9364D /* Date+Extended.swift in Sources */,
-				AC4E44A228B95A6B00A74F42 /* LoadingIndicator.swift in Sources */,
-				AC4E44A028B95A3800A74F42 /* LoadIndicatorViewController.swift in Sources */,
 				ACA8DCC228B5501B00BD943B /* SceneDelegate.swift in Sources */,
 				AC4E449028B94F4900A74F42 /* EnterOTPViewController.swift in Sources */,
 				AC4E448428B9472C00A74F42 /* PhoneNumberViewModel.swift in Sources */,

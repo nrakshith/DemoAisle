@@ -25,9 +25,13 @@ class EnterOTPViewModel {
     //Events
     let showTabBarScreen: Observable<TabBarController.Dependencies>
     let isLoading: Driver<Bool>
+    let showPhoneNumberScreen: Signal<Void>
+    let updateCounter =  PublishRelay<String>()
+
     //State
     let errorState: Observable<Void>
-
+    
+    private let disposeBag = DisposeBag()
     
     init(dependencies: Dependencies) {
         
@@ -35,7 +39,7 @@ class EnterOTPViewModel {
             dependencies.didTapContinueButtton
                 .withLatestFrom(dependencies.otp)
                 .flatMap {
-                    dependencies.server.otp(phoneNumber: dependencies.phoneNumber.phoneNumber, otp: $0)
+                    dependencies.server.otp(phoneNumber: dependencies.phoneNumber.phoneNumber, otp: $0).activity(activity, errors: errors)
                 }
                 .asSignalNeverError()
         }
@@ -50,5 +54,17 @@ class EnterOTPViewModel {
         isLoading = load.isLoading.asDriver()
         
         errorState = load.error.mapToVoid().asObservable()
+        
+        showPhoneNumberScreen = dependencies.didTapEditPhoneButton.asSignal()
+
+        
+        Observable<Int>.timer(.seconds(0), period: .seconds(1), scheduler: MainScheduler.instance)
+                .take(60)
+                .subscribe(onNext: { timePassed in
+                    let count = 60 - timePassed
+                    let minutes = (count % 3600) / 60
+                    let seconds = (count % 3600) % 60
+                    self.updateCounter.accept("\(minutes):\(seconds)")
+                }).disposed(by: disposeBag)
     }
 }

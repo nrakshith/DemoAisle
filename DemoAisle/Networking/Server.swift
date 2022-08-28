@@ -10,18 +10,20 @@ import RxCocoa
 import RxSwift
 
 protocol ServerType {
-    func login(phoneNumber: PhoneNumber) -> Observable<Void>
-    func otp(phoneNumber: String, otp: String) -> Observable<Void>
+    func login(phoneNumber: PhoneNumber) -> Observable<PhoneNumberLoginModel>
+    func otp(phoneNumber: String, otp: String) -> Observable<OTPLoginModel>
 }
 
 struct Server: ServerType {
+    
     private let session: URLSession
+    private let disposeBag = DisposeBag()
     
     init(session: URLSession = .default) {
         self.session = session
     }
     
-    func login(phoneNumber: PhoneNumber) -> Observable<Void> {
+    func login(phoneNumber: PhoneNumber) -> Observable<PhoneNumberLoginModel> {
         
         let request = URLRequest(
             method: .POST,
@@ -31,15 +33,14 @@ struct Server: ServerType {
             ]
         )
         
-        let observable: Observable<EmptyResponse> = session.observable(for: request)
+        let observable: Observable<PhoneNumberLoginModel> = session.observable(for: request)
         
-        return observable.mapToVoid()
+        return observable
+            .checkForErrors
     }
     
-    func otp(phoneNumber: String, otp: String) -> Observable<String> {
-        struct Response: Decodable {
-            let authToken: String
-        }
+    func otp(phoneNumber: String, otp: String) -> Observable<OTPLoginModel> {
+        
         let request = URLRequest(
             method: .POST,
             path: "/users/verify_otp",
@@ -48,8 +49,10 @@ struct Server: ServerType {
                 "otp" : otp
             ]
         )
-        let observable: Observable<Response> = session.observable(for: request)
-        
-        return observable.map{ $0.authToken }
+        let observable: Observable<OTPLoginModel> = session.observable(for: request)
+
+        return observable
+            .checkForErrors
+
     }
 }

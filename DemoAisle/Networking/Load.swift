@@ -12,11 +12,11 @@ import RxCocoa
 struct Load<Object> {
     let finished: Signal<Object>
     let isLoading: Driver<Bool>
-    let error: Signal<Error>
+    let error: PublishSubject<Error>
     
     /// Providing an `ActivityIndicator` allows a single `ActivityIndicator` to be shared between multiple Load operations
-    init(activityIndicator: ActivityIndicator = ActivityIndicator(), errorRelay: PublishRelay<Error> = PublishRelay<Error>(), _ closure: ((ActivityIndicator, PublishRelay<Error>) -> Signal<Object>)) {
-        self.error = errorRelay.asSignal()
+    init(activityIndicator: ActivityIndicator = ActivityIndicator(), errorRelay: PublishSubject<Error> = PublishSubject<Error>(), _ closure: ((ActivityIndicator, PublishSubject<Error>) -> Signal<Object>)) {
+        self.error = errorRelay
         self.isLoading = activityIndicator.asDriver()
         finished = closure(activityIndicator, errorRelay)
     }

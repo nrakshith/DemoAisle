@@ -41,7 +41,7 @@ class PhoneNumberViewModel {
             dependencies.didTapContinueButtton
                 .withLatestFrom(phoneNumber)
                 .flatMap {
-                    dependencies.server.login(phoneNumber: $0)
+                    dependencies.server.login(phoneNumber: $0).activity(activity, errors: errors)
                 }
                 .asSignalNeverError()
         }
